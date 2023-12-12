@@ -14,6 +14,7 @@ public class TableRender {
 
     }
     
+    
     public static void render(JTable table, String cols[], String fields[], DB db) {
         DefaultTableModel dm = new DefaultTableModel();
         ArrayList data = new ArrayList();
